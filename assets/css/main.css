@@ -2185,7 +2185,7 @@ input, select, textarea {
 			display: inline-block;
 			vertical-align: middle;
             padding: 40px;
-            background: rgba(0,0,0,0.7);
+            background: rgba(0,0,0,0.0);
 		}
 
 		#header header {
@@ -2198,9 +2198,15 @@ input, select, textarea {
 			}
 
 		#header h1 {
-			color: #fff;
+			color: #ffffff;
+            background: rgba(0,0,0,0.7);
 			font-size: 3em;
 			line-height: 1em;
+            padding: 15px;
+		}
+
+		#header p {
+			background: rgba(0,0,0,0.7);
 		}
 
 			#header h1 a {
